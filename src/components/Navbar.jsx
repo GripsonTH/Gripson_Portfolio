@@ -32,7 +32,7 @@ const Navbar = () => {
         >
           <FaInstagram className="hover:text-pink-500 transition duration-200" />
         </a>
-        <a href="/GripsonResume.pdf" download="GripsonResume.pdf"><img className="w-7 hover:scale-105 hover:rotate-3 hover:opacity-75 transition duration-200" src={Resume} alt="Resume" /></a>
+        <a href="/Resume_May.pdf" download="Resume_May.pdf"><img className="w-7 hover:scale-105 hover:rotate-3 hover:opacity-75 transition duration-200" src={Resume} alt="Resume" /></a>
       </div>
     </nav>
   );

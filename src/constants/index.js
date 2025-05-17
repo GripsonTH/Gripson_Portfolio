@@ -5,6 +5,7 @@ import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.webp";
 import project6 from "../assets/projects/project-6.jpeg";
 import project7 from "../assets/projects/project-7.png";
+import project8 from "../assets/projects/project-8.png";
 
 
 export const HERO_CONTENT = `I am an aspiring full stack developer with a passion for building robust and scalable web applications. With a solid foundation in front-end technologies like React, along with back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB, I am eager to apply my knowledge to real-world projects. I am continuously learning and refining my skills to create innovative solutions that enhance user experiences and drive business growth.`;
@@ -29,7 +30,7 @@ export const EXPERIENCES = [
     year: "2022 jan - jun",  
     role: "IT Trainee",
     company: " PIIMA Health Care",
-    description: `I worked as an IT Trainee at a Hospital for 6 months. During my time there, I was responsible for a variety of tasks, including `,
+    description: `I worked as an IT Trainee at a Hospital for 5 months. During my time there, I was responsible for a variety of tasks, including `,
     points: ["- installation and configuration computer hardware and software.",
        "- troubleshooted computer problem", 
        "- provided technical support to hospital staff",
@@ -82,6 +83,13 @@ export const PROJECTS = [
     description:
       "This first-person shooter game, built with Unity and Photon PUN2, features real-time multiplayer, lobby creation, and competitive free-for-all gameplay.",
     technologies: ["C#", "Photon Pun2", "Unity Engine"],
+  },
+  {
+    title: " Ecom website using MERN",
+    image: project8,
+    description:
+      "A full-stack e-commerce website built with the MERN stack featuring user authentication, product browsing, cart and order management. It includes a secure admin panel for managing products, users and orders. The app uses RESTful APIs and JWT-based authentication for smooth and secure operations.",
+    technologies: ["MERN", "TailwindCSS", "React.js", "Node.js", "Express.js", "MongoDB"],
   },
 ];
 
