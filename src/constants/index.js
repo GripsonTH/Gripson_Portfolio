@@ -89,7 +89,7 @@ export const PROJECTS = [
     image: project8,
     description:
       "A full-stack e-commerce website built with the MERN stack featuring user authentication, product browsing, cart and order management. It includes a secure admin panel for managing products, users and orders. The app uses RESTful APIs and JWT-based authentication for smooth and secure operations.",
-    technologies: ["MERN", "TailwindCSS", "React.js", "Node.js", "Express.js", "MongoDB"],
+    technologies: ["MERN", "TailwindCSS"],
   },
 ];
 
