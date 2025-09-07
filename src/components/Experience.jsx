@@ -29,9 +29,15 @@ const Experience = () => {
                         <span className='text-sm text-purple-100'>{experience.company}
                         </span></h6>
                     <p className='mb-4 text-neutral-400'>{experience.description}</p>
-                    {experience.points.map((point,index)=>(
-                        <span key={index} className='mr-2 mt-4 text-sm font-medium text-neutral-400'>{point}<br/></span>
-                    ))}
+ {Array.isArray(experience.points) &&
+                experience.points.map((point, idx) => (
+                  <p
+                    key={idx}
+                    className="mb-2 text-sm text-neutral-400"
+                  >
+                    {point}
+                  </p>
+                ))}
                     </motion.div>
                 </div>
             ))}

@@ -8,24 +8,14 @@ import project7 from "../assets/projects/project-7.png";
 import project8 from "../assets/projects/project-8.png";
 
 
-export const HERO_CONTENT = `I am an aspiring full stack developer with a passion for building robust and scalable web applications. With a solid foundation in front-end technologies like React, along with back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB, I am eager to apply my knowledge to real-world projects. I am continuously learning and refining my skills to create innovative solutions that enhance user experiences and drive business growth.`;
+export const HERO_CONTENT = `I am an aspiring full stack developer with a passion for building robust and scalable web applications. With a solid foundation in front-end technologies like React, Next along with back-end technologies like Node.js, Express, MySQL, PostgreSQL and MongoDB. I am continuously learning and refining my skills to create innovative solutions that enhance user experiences and drive business growth.`;
 
-export const ABOUT_TEXT = `I am a dedicated and passionate Full Stack Developer with a strong foundation in building dynamic and scalable web applications. My expertise spans React, Node.js, MySQL, PostgreSQL and MongoDB, allowing me to craft seamless and efficient digital experiences.
-
-Beyond web development, I have ventured into game development, where I built an online multiplayer shooting game for PC using Unity (C#) and Photon PUN2. Additionally, I have worked on several Python projects, exploring automation, data processing and backend development.
-
-My journey in technology is driven by curiosity and a love for problem-solving. I thrive in collaborative environments and continuously seek opportunities to learn and improve. When I’m not coding, I enjoy experimenting with new technologies, contributing to open-source projects and refining my game development skills.
+export const ABOUT_TEXT = `I am a dedicated Full Stack Developer with a strong foundation in building dynamic and scalable web applications. My expertise includes React, Next.js, Node.js, Express, MySQL, PostgreSQL and MongoDB, enabling me to deliver seamless and efficient digital experiences. As part of my web development journey, I have also contributed to projects involving API development, database management and scalable backend services.
+In addition to web development, I have explored game development by creating an online multiplayer shooting game for PC using Unity (C#) and Photon PUN2. Driven by curiosity and a passion for problem-solving, I thrive in collaborative environments and continuously seek opportunities to grow. Beyond coding, I enjoy experimenting with emerging technologies, contributing to open-source projects and refining my game development skills.
 
 `;
 
 export const EXPERIENCES = [
-  /*{
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },*/
   {
     year: "2022 jan - jun",  
     role: "IT Trainee",
@@ -38,6 +28,21 @@ export const EXPERIENCES = [
       "- Developing a training program for hospital staff on how to use the systems about related with their designation",
       "I learned a lot during my time at the hospital and I gained valuable experience in a variety of IT disciplines. "]
   },
+  {
+    year: "2025 jun - Present",
+    role: "Software Developer",
+    company: " Lamzing Tech",
+    description: `As part of the development team, I contribute to building and maintaining scalable web applications. My work involves developing RESTful APIs with Express, integrating PostgreSQL databases, and building front-end features with Next.js. I also help with containerization using Docker and deployment configurations with Nginx.`,
+    technologies: ["TypeScript", "Next.js", "Postgresql","Express", "Docker", "Nginx"],
+    points: [
+    "- Collaborated with team members to design and implement new features.",
+    "- Built and optimized RESTful APIs with Express.",
+    "- Integrated PostgreSQL for reliable data storage and queries.",
+    "- Developed responsive front-end components using Next.js.",
+    "- Assisted with Docker-based containerization and environment setup.",
+    "- Configured Nginx for deployment and load balancing."
+  ]
+  },  
 
 ];
 
