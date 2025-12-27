@@ -96,6 +96,13 @@ export const PROJECTS = [
       "A full-stack e-commerce website built with the MERN stack featuring user authentication, product browsing, cart and order management. It includes a secure admin panel for managing products, users and orders. The app uses RESTful APIs and JWT-based authentication for smooth and secure operations.",
     technologies: ["MERN", "TailwindCSS"],
   },
+  {
+    title: "Education Transfer and Posting (Government WebApp)",
+    image: project4,
+    description:
+      "An education management platform enabling seamless transfer and posting of educational records. Built with Next.js for a modern frontend and Drizzle ORM for robust MySQL database management, providing secure data handling and efficient query management.",
+    technologies: ["Next.js", "MySQL", "Drizzle ORM"],
+  },
 ];
 
 export const CONTACT = {
